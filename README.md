@@ -18,3 +18,9 @@ Followed Pluralsight tutorial [Go Fundamentals](https://app.pluralsight.com/libr
 * Go passes arguments by value
 * Go supports passing multiple return values and naming those same values as part of the function signature
 * Go supports first class functions.
+* Go does not type cast strings or int to boolean for evaluating conditionals.
+* Variables initializations can be made part of the if statements and are scoped to it.
+* Conditional ifs expect a single else statement although multiple else if statements may be added. Guarantees single first match execution in lexical order.
+* Switch statements accept like Conditional ifs an initializing statement and its case value can be of any basic type.
+* Switch statements have implicit breaks.
+* Switch case fallthrough statements allow for transfering control to the next clause although grouping case statements will lead to the same result.

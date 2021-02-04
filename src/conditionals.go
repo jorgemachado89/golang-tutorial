@@ -2,13 +2,15 @@ package main
 
 import (
 	"fmt"
+	"os"
 )
 
 func main() {
-	fmt.Println("Hello")
+	//fmt.Println("Hello")
 
-	ifConditional()
-	switchStatment()
+	// ifConditional()
+	// switchStatment()
+	checkForErrorHandling()
 }
 
 func ifConditional() {
@@ -29,5 +31,15 @@ func switchStatment() {
 		fmt.Println("pois e")
 	default:
 		fmt.Println("Default")
+	}
+}
+
+func checkForErrorHandling() {
+	_, err := os.Open("../README.md")
+
+	if err != nil {
+		fmt.Println(err)
+	} else {
+		fmt.Println("No errors")
 	}
 }

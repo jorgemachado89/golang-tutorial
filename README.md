@@ -24,4 +24,6 @@ Followed Pluralsight tutorial [Go Fundamentals](https://app.pluralsight.com/libr
 * Switch statements accept like Conditional ifs an initializing statement and its case value can be of any basic type.
 * Switch statements have implicit breaks.
 * Switch case fallthrough statements allow for transfering control to the next clause although grouping case statements will lead to the same result.
-* Switch case statements may have multiple values comma separated values as an alternative to grouping case statements 
+* Switch case statements may have multiple values comma separated values as an alternative to grouping case statements
+* Idiomatic to return errors as the last return. nil is used to indicate success.
+* Underscore is used to ignore left hand values in an assignment and can be useful for importing a module disregarding the exported values making use only of its side effects. Can also be used to silence compiler errors on unused imports and variables.

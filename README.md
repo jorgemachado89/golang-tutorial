@@ -1,5 +1,7 @@
 # Golang Tutorial
 
+Followed Pluralsight tutorial [Go Fundamentals](https://app.pluralsight.com/library/courses/go-fundamentals)
+
 ## Notes
 
 * Started as a *systems* language
@@ -14,3 +16,4 @@
 * Non declarations, at package level, outside methods are not allowed.
 * Package level declarations even if not used are allowed but should be avoided.
 * Go passes arguments by value
+* Go supports passing multiple return values and naming those same values as part of the function signature

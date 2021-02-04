@@ -19,8 +19,8 @@ func countdownTimer() {
 func forRangeLoops() {
 	courses := []string {"Docker Deep Dive", "Docker Clustering", "Docker and Kubernetes"}
 
-	for _, course := range courses {
-		fmt.Println(course)
+	for index, course := range courses {
+		fmt.Println(index, ": ", course)
 	}
 
 }

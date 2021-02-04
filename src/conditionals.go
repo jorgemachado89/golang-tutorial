@@ -35,9 +35,7 @@ func switchStatment() {
 }
 
 func checkForErrorHandling() {
-	_, err := os.Open("../README.md")
-
-	if err != nil {
+	if _, err := os.Open("../README.md"); err != nil {
 		fmt.Println(err)
 	} else {
 		fmt.Println("No errors")

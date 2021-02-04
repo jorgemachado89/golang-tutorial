@@ -1,5 +1,7 @@
 # Golang Tutorial
 
+Followed Pluralsight tutorial [Go Fundamentals](https://app.pluralsight.com/library/courses/go-fundamentals)
+
 ## Notes
 
 * Started as a *systems* language

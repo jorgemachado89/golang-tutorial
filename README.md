@@ -30,4 +30,9 @@ Followed Pluralsight tutorial [Go Fundamentals](https://app.pluralsight.com/libr
 * Empty for loop conditions equal are considered as never ending ones unless explicitly terminated.
 * For expression, range and post statement types exist
 * Such as in Switch statements break statements stop the execution of the next execution block within the current scope
-* Breakpoint and continue clauses are also available in Go 
+* Breakpoint and continue clauses are also available in Go
+* Arrays elements need all to be of the same type
+* Arrays have fixed lengths although Slices have a variable length
+* Slices holds pointers to data elements in Array. Slices are references and as such are passed as references when dealing with function arguments.
+* Slices hold the starting, length of Slice and optional capacity. Capacity sets the maximum size of the Slice.
+* "make" keyword allocates and initializes a Slice.

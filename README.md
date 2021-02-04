@@ -36,3 +36,4 @@ Followed Pluralsight tutorial [Go Fundamentals](https://app.pluralsight.com/libr
 * Slices holds pointers to data elements in Array. Slices are references and as such are passed as references when dealing with function arguments.
 * Slices hold the starting, length of Slice and optional capacity. Capacity sets the maximum size of the Slice.
 * "make" keyword allocates and initializes a Slice.
+* It is possible to recursively create Slices based on Slices.

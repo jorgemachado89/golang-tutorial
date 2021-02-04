@@ -37,3 +37,5 @@ Followed Pluralsight tutorial [Go Fundamentals](https://app.pluralsight.com/libr
 * Slices hold the starting, length of Slice and optional capacity. Capacity sets the maximum size of the Slice.
 * "make" keyword allocates and initializes a Slice.
 * It is possible to recursively create Slices based on Slices.
+* The capacity of the Slice if equal to the length of its underlying Array
+* When appending values to a Slice the underlying Array will hold its capacity until it can no longer support additional values. Moreover, when adding a capacity + 1 value a new underlying Array will be created with double the previous capacity.

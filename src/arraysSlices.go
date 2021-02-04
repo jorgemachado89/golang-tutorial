@@ -9,7 +9,8 @@ func main() {
 
 	// arraysAndSlices()
 	// sliceOfSlice()
-	appendSlice()
+	// appendSlice()
+	appendSliceElements()
 }
 
 func arraysAndSlices() {
@@ -47,4 +48,13 @@ func appendSlice() {
 		fmt.Printf("\nCapacity is: %d", cap(mySlice))
 	}
 
+}
+
+func appendSliceElements() {
+	mySlice := []int{1, 2, 3, 4, 5}
+	fmt.Printf("mySlice: %v - mySlice Reference: %p", mySlice, &mySlice)
+
+	anotherSlice := []int{6, 7, 8}
+	mySlice = append(mySlice, anotherSlice...)
+	fmt.Printf("\nmySlice: %v - mySlice Reference: %p", mySlice, &mySlice)
 }

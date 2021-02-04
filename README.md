@@ -24,3 +24,4 @@ Followed Pluralsight tutorial [Go Fundamentals](https://app.pluralsight.com/libr
 * Switch statements accept like Conditional ifs an initializing statement and its case value can be of any basic type.
 * Switch statements have implicit breaks.
 * Switch case fallthrough statements allow for transfering control to the next clause although grouping case statements will lead to the same result.
+* Switch case statements may have multiple values comma separated values as an alternative to grouping case statements 

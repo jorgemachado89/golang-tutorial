@@ -21,8 +21,7 @@ func switchStatment() {
 	switch value := "Ola"; value {
 	case "Docker Deep Dive":
 		fmt.Println(value)
-	case "Ole":
-	case "Ola":
+	case "Ole", "Ola":
 		fmt.Println("elO")
 		fmt.Println("Olare")
 		fallthrough

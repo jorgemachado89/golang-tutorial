@@ -26,7 +26,7 @@ func bestLeagueFinishes(finishes ...int) int {
 	return best
 }
 
-func tailoredResultHoc(positionCalc bestLeague) string {
+func tailoredResultHof(positionCalc bestLeague) string {
 	leagueRanks := []int{13, 10, 13, 17, 14, 16, 7, 5, 2}
 
 	return fmt.Sprint("Highest League Finish: ", positionCalc(leagueRanks...))

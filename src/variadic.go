@@ -9,7 +9,7 @@ func main() {
 	// bestFinish := bestLeagueFinishes(13, 10, 13, 17, 14, 16, 7, 5, 2)
 	// fmt.Println(bestFinish)
 
-	tailoredBestFinish := tailoredResultHoc(bestLeagueFinishes)
+	tailoredBestFinish := tailoredResultHof(bestLeagueFinishes)
 	fmt.Println(tailoredBestFinish)
 }
 

@@ -29,4 +29,5 @@ Followed Pluralsight tutorial [Go Fundamentals](https://app.pluralsight.com/libr
 * Underscore is used to ignore left hand values in an assignment and can be useful for importing a module disregarding the exported values making use only of its side effects. Can also be used to silence compiler errors on unused imports and variables.
 * Empty for loop conditions equal are considered as never ending ones unless explicitly terminated.
 * For expression, range and post statement types exist
-* Such as in Switch statements break statements stop the execution of the next execution block within the current scope 
+* Such as in Switch statements break statements stop the execution of the next execution block within the current scope
+* Breakpoint and continue clauses are also available in Go 

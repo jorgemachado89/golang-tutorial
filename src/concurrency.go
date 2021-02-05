@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"runtime"
 	"sync"
 	"time"
 )
@@ -9,6 +10,7 @@ import (
 func main() {
 	fmt.Println("Concurrency")
 
+	runtime.GOMAXPROCS(2)
 	var waitGrp sync.WaitGroup
 	waitGrp.Add(2)
 

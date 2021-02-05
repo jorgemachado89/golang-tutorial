@@ -40,4 +40,6 @@ Followed Pluralsight tutorial [Go Fundamentals](https://app.pluralsight.com/libr
 * The capacity of the Slice if equal to the length of its underlying Array
 * When appending values to a Slice the underlying Array will hold its capacity until it can no longer support additional values. Moreover, when adding a capacity + 1 value a new underlying Array will be created with double the previous capacity. The reference to the Slice does not mutate when appending new values.
 * Maps are unordered and represent the implementation of a Hash table. Key value pairs.
-* Maps are unsafe for concurrency 
+* Maps are unsafe for concurrency
+* When dealing with large sized maps, try to allocate before hand the expected size in order to improve performance.  
+* Maps are passed by reference such as pointers and slices

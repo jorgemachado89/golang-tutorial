@@ -50,7 +50,28 @@ Followed Pluralsight tutorial [Go Fundamentals](https://app.pluralsight.com/libr
 * Multiple Goroutines can be running on a single OS Thread.
 * Goroutines allow for safe communication via channels.
 * Go's concurrency uses the Actor model. Communicating Sequential Processes.
+* Unbuffered channels locks the sender Goroutine till another Goroutine is ready to receive the payload.
+* Buffered channels does not block the sender Goroutine unless the buffer is full thus locking the sender until a receiver comes and grabs data to release the channel 
 
 ## Questions
 
 * Considering Golangs scripting, simplicity and concurrency habilities coupled with web application development how does compare when matched against NodeJS ?
+    * https://github.com/golang/go/wiki/FromXToGo
+* How do channels work through example ? None is provided during this course.
+
+## TODO
+
+* Checkout the following links and channels:
+    * https://github.com/golang/go/wiki#contributing-to-the-go-project
+    * https://blog.rubylearning.com/best-practices-for-a-new-go-developer-8660384302fc
+    * https://github.com/golang/go/wiki/LearnServerProgramming
+    * https://golang.org/doc/contribute.html
+    * https://rakyll.org/go-tool-flags/
+    * https://github.com/golang/go/wiki/GoUsers
+    * https://github.com/golang/go/wiki/GoUserGroups
+    * https://rakyll.org/cross-compilation/
+    * https://github.com/golang/go/wiki/whygo
+
+* Projects worth checking out:
+    * https://github.com/satellity/satellity
+

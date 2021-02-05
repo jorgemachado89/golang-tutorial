@@ -63,7 +63,7 @@ Followed Pluralsight tutorial [Go Fundamentals](https://app.pluralsight.com/libr
 
 - Checkout the following links and channels:
     - [ ] https://github.com/golang/go/wiki#contributing-to-the-go-project
-    - [ ] https://blog.rubylearning.com/* -est-practices-for-a-new-go-developer-8660384302fc
+    - [ ] https://blog.rubylearning.com/best-practices-for-a-new-go-developer-8660384302fc
     - [ ] https://github.com/golang/go/wiki/LearnServerProgramming
     - [ ] https://golang.org/doc/contribute.html
     - [ ] https://rakyll.org/go-tool-flags/

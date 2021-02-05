@@ -20,7 +20,8 @@ func main() {
 
 	fmt.Println(premierLeagueTitles)*/
 
-	itereateOrdering()
+	// itereateOrdering()
+	dynamicMapAllocation()
 }
 
 func itereateOrdering() {
@@ -35,4 +36,14 @@ func itereateOrdering() {
 	for key, value := range testMap {
 		fmt.Printf("key: %v, value: %v \n", key, value)
 	}
+}
+
+func dynamicMapAllocation() {
+	testMap := map[string]int{"A": 1, "B": 2, "C": 3}
+
+	testMap["A"] = 10
+	testMap["D"] = 4
+	delete(testMap, "B")
+
+	fmt.Println(testMap)
 }

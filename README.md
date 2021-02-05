@@ -61,17 +61,17 @@ Followed Pluralsight tutorial [Go Fundamentals](https://app.pluralsight.com/libr
 
 ## TODO
 
-* Checkout the following links and channels:
-    * https://github.com/golang/go/wiki#contributing-to-the-go-project
-    * https://blog.rubylearning.com/best-practices-for-a-new-go-developer-8660384302fc
-    * https://github.com/golang/go/wiki/LearnServerProgramming
-    * https://golang.org/doc/contribute.html
-    * https://rakyll.org/go-tool-flags/
-    * https://github.com/golang/go/wiki/GoUsers
-    * https://github.com/golang/go/wiki/GoUserGroups
-    * https://rakyll.org/cross-compilation/
-    * https://github.com/golang/go/wiki/whygo
+- Checkout the following links and channels:
+    - [ ] https://github.com/golang/go/wiki#contributing-to-the-go-project
+    - [ ] https://blog.rubylearning.com/* -est-practices-for-a-new-go-developer-8660384302fc
+    - [ ] https://github.com/golang/go/wiki/LearnServerProgramming
+    - [ ] https://golang.org/doc/contribute.html
+    - [ ] https://rakyll.org/go-tool-flags/
+    - [ ] https://github.com/golang/go/wiki/GoUsers
+    - [ ] https://github.com/golang/go/wiki/GoUserGroups
+    - [ ] https://rakyll.org/cross-compilation/
+    - [ ] https://github.com/golang/go/wiki/whygo
 
-* Projects worth checking out:
-    * https://github.com/satellity/satellity
+- Projects worth checking out:
+    - [ ] https://github.com/satellity/satellity
 

@@ -43,3 +43,8 @@ Followed Pluralsight tutorial [Go Fundamentals](https://app.pluralsight.com/libr
 * Maps are unsafe for concurrency
 * When dealing with large sized maps, try to allocate before hand the expected size in order to improve performance.  
 * Maps are passed by reference such as pointers and slices
+* Concurrency deals with the aspect of having multiple processes executing independently not the same as in parallel execution
+
+## Questions
+
+* Considering Golangs scripting, simplicity and concurrency habilities coupled with web application development how does compare when matched against NodeJS ?

@@ -44,6 +44,12 @@ Followed Pluralsight tutorial [Go Fundamentals](https://app.pluralsight.com/libr
 * When dealing with large sized maps, try to allocate before hand the expected size in order to improve performance.  
 * Maps are passed by reference such as pointers and slices
 * Concurrency deals with the aspect of having multiple processes executing independently not the same as in parallel execution
+* Goroutines are not scheduled by the OS but instead via the Go runtime.
+* Goroutines are lighter than OS Threads
+* Less switching since it does not block due to OS dependencies as when dealing with OS Threads.
+* Multiple Goroutines can be running on a single OS Thread.
+* Goroutines allow for safe communication via channels.
+* Go's concurrency uses the Actor model. Communicating Sequential Processes.
 
 ## Questions
 

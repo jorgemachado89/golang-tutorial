@@ -43,3 +43,35 @@ Followed Pluralsight tutorial [Go Fundamentals](https://app.pluralsight.com/libr
 * Maps are unsafe for concurrency
 * When dealing with large sized maps, try to allocate before hand the expected size in order to improve performance.  
 * Maps are passed by reference such as pointers and slices
+* Concurrency deals with the aspect of having multiple processes executing independently not the same as in parallel execution
+* Goroutines are not scheduled by the OS but instead via the Go runtime.
+* Goroutines are lighter than OS Threads
+* Less switching since it does not block due to OS dependencies as when dealing with OS Threads.
+* Multiple Goroutines can be running on a single OS Thread.
+* Goroutines allow for safe communication via channels.
+* Go's concurrency uses the Actor model. Communicating Sequential Processes.
+* Unbuffered channels locks the sender Goroutine till another Goroutine is ready to receive the payload.
+* Buffered channels does not block the sender Goroutine unless the buffer is full thus locking the sender until a receiver comes and grabs data to release the channel 
+
+## Questions
+
+* Considering Golangs scripting, simplicity and concurrency habilities coupled with web application development how does compare when matched against NodeJS ?
+    * https://github.com/golang/go/wiki/FromXToGo
+* How do channels work through example ? None is provided during this course.
+
+## TODO
+
+- Checkout the following links and channels:
+    - [ ] https://github.com/golang/go/wiki#contributing-to-the-go-project
+    - [ ] https://blog.rubylearning.com/* -est-practices-for-a-new-go-developer-8660384302fc
+    - [ ] https://github.com/golang/go/wiki/LearnServerProgramming
+    - [ ] https://golang.org/doc/contribute.html
+    - [ ] https://rakyll.org/go-tool-flags/
+    - [ ] https://github.com/golang/go/wiki/GoUsers
+    - [ ] https://github.com/golang/go/wiki/GoUserGroups
+    - [ ] https://rakyll.org/cross-compilation/
+    - [ ] https://github.com/golang/go/wiki/whygo
+
+- Projects worth checking out:
+    - [ ] https://github.com/satellity/satellity
+
